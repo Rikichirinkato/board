@@ -1,0 +1,4 @@
+function useCurrentThread() {
+    
+  return currentThread
+}

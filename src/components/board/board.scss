@@ -1,0 +1,25 @@
+.header {
+  width: inherit;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+  border-bottom: 1px solid #333333;
+}
+
+.form-container {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #000;
+  position: relative;
+
+  .close-form-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+

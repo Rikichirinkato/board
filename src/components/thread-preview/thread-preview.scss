@@ -1,0 +1,41 @@
+.item-post {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 10px;
+  &.op-post {
+    width: calc(100% - 30px);
+    background: none;
+  }
+
+  .post-header span{
+    margin: 0 10px;
+  }
+  
+  .image {
+    max-width: 250px;
+    max-height: 250px;
+    margin: 5px;
+  }
+  
+  .message {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    .name {
+      color: green;
+      font-weight: bold;
+    }
+  }
+}
+
+.thread {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: flex-start;
+  border-bottom: 1px solid #333333;
+}
